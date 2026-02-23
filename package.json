@@ -2,7 +2,7 @@
   "name": "json-server-backend",
   "version": "1.0.0",
   "scripts": {
-    "start": "json-server --host 0.0.0.0 --port $PORT --watch db.json"
+    "start": "node server.js"
   },
   "dependencies": {
     "json-server": "^1.0.0-alpha.23"
